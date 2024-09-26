@@ -13,7 +13,7 @@ class Bot(commands.Bot):
         return user.id == 696158716617031711
 
 intents = discord.Intents.all()
-bot = Bot(command_prefix=commands.when_mentioned_or("!"), intents=intents, help_command=MinimalEmbedPaginatorHelp())
+bot = Bot(command_prefix=commands.when_mentioned_or("-"), intents=intents, help_command=MinimalEmbedPaginatorHelp())
 
 @bot.event
 async def on_ready():
