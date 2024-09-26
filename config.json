@@ -1,3 +1,48 @@
 {
-    "welcome_channel_id":1144066997601177700
+    "welcome_channel_id":1144066997601177700,
+    "Session": {
+        "Vote_embed": {
+            "title":"Session Vote",
+            "description":"Our management team has decided to start a session poll. If you are able to attend the session please click the 'Vote' button below. You are required to join after you vote or you will be punished.",
+            "color": {
+                "r":43,
+                "g":45,
+                "b":49
+            },
+            "second_part_enabled": true,
+            "second_part_embed": {
+                "title":"Requirements",
+                "description":"You are required to join our server within 15 minutes of it starting.\nYou are required to read our in game rules before joining."
+            }
+        },
+        "Votes_view_embed": {
+            "title":"Session Votes",
+            "description":"These are the list of people who have voted for the session. Note that you are able to remove your vote by clicking the vote button again.",
+            "color": {
+                "r":43,
+                "g":45,
+                "b":49
+            }
+        },
+        "Vote_button_response_embed": {
+            "added": {
+                "title":"",
+                "description": "Your session vote has been added.",
+                "color": {
+                    "r":43,
+                    "g":45,
+                    "b":49
+                }
+            },
+            "removed": {
+                "title":"",
+                "description": "Your session vote has been removed.",
+                "color": {
+                    "r":43,
+                    "g":45,
+                    "b":49
+                }
+            }
+        }
+    }
 }
